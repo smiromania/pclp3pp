@@ -41,9 +41,6 @@ print(len(l1))
 print(len(l2))
 
 
-
-
-
 # a = b = c = d = 1
 # print(type(a))
 # F22

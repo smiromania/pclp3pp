@@ -19,6 +19,16 @@ for i, j in zip(l1, l2):
 print(sorted([str(elem) for elem in l1]))
 print(sorted([str(elem) for elem in l2]))
 
+
+t1 = ('abcd', 786, 2.23, 'ion', 70.2)
+t1 = ('xyz',) + t1[1:] #nu se poate muta in tuplu
+print(len(t1))
+t2=tuple(l2)
+print(min([x for x in t1 if isinstance(x, (int, float))]))
+print(min(t2))
+t1_sorted = tuple(sorted([x for x in t1 if isinstance(x, (int, float))]))
+
+print(t1_sorted)
 # nu se poate compara la sortare string cu int
 
 # a = b = c = d = 1
