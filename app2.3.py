@@ -7,5 +7,3 @@ print(d1.values())
 print(d1["carte"])
 print(d1.get("doi", "nu exista"))
 d2 = d1.copy()
-
-print(str('5'))
