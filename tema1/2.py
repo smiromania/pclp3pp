@@ -21,10 +21,10 @@ class PlotApp:
         btn_all_values = ttk.Button(self.master, text="Show all values", command=self.plot_all_columns)
         btn_all_values.pack(pady=10)
 
-        btn_first_x_values = ttk.Button(self.master, text="Show first values", command=lambda: self.plot_first_x_values(6))
+        btn_first_x_values = ttk.Button(self.master, text="Show first values", command=lambda: self.plot_first_x_values(9))
         btn_first_x_values.pack(pady=10)
 
-        btn_last_y_values = ttk.Button(self.master, text="Show last values", command=lambda: self.plot_last_y_values(11))
+        btn_last_y_values = ttk.Button(self.master, text="Show last values", command=lambda: self.plot_last_y_values(16))
         btn_last_y_values.pack(pady=10)
 
         btn_reset = ttk.Button(self.master, text="Reset", command=self.reset_plots)
