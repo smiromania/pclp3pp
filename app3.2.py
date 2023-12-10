@@ -1,5 +1,5 @@
 #lab 3.2
-
+import pandas
 
 
 var1=int(input("Enter a number: "))
