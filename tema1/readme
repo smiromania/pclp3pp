@@ -1,0 +1,21 @@
+1. Prerequisites
+
+ - Visual Studio 2022
+ - pandas Python library
+ - matplotlib Python library
+ - tkinter Python library
+ - employee.py class library for the first app
+ - data.CSV file for the second app
+
+2. Run
+
+Usage:
+   - python.exe 1.py
+   - python.exe 2.py
+
+3. References
+
+ - Git Repo : https://github.com/smiromania/pclp3pp/tree/dev
+ - Bard Chat https://g.co/bard/share/8e008bf18b1f #1
+ - Bard Chat https://g.co/bard/share/35f8026767a5 #2
+ - Tkinter https://docs.python.org/3/library/tkinter.html
