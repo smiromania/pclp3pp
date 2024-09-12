@@ -23,8 +23,8 @@ class Manager(Employee):
 
 
 if __name__ == "__main__":
-    X = 6
-    Y = 11
+    X = 9
+    Y = 16
 
     managers = [Manager(f"Manager {i}", 1000 * i, "F22") for i in range(Y // 3)]
     
